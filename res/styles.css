@@ -1,5 +1,10 @@
 @import  "//fonts.googleapis.com/css?family=Montserrat";
 
+@font-face {
+  font-family: 'SourceSansLP';
+  src: url('./SourceSans_lp.ttf');
+}
+
 html {
   height: 100%;
 }
@@ -27,6 +32,10 @@ section {
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
+}
+
+p {
+  font-family: 'SourceSansLP'
 }
 
 .bg-image {
@@ -165,7 +174,7 @@ section {
 
 .bg-image {
   /* photo from: https://www.pexels.com/photo/dawn-landscape-mountains-nature-1852/ */
-  background-image: url(./SSR-soon-cs.png);
+  background-image: url(./background-neon.jpg);
   background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover;
